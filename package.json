@@ -1,0 +1,23 @@
+{
+  "name": "offline-quickstart-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:local": "http-server -p 3333"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.16.2",
+    "idb": "^5.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^9.0.0",
+    "http-server": "^0.12.1",
+    "node-fetch": "^2.6.1"
+  }
+}
